@@ -92,6 +92,8 @@ await gh.projects.setFieldValues(proj.data.id, itemId, meta.data, {
 ```js
 // Run any query/mutation directly
 const data = await gh.gql(`query { viewer { login } }`)
+const data = await gh.gql(MY_QUERY, { owner: 'acme' })
+// Sub-issues preview header wired automatically:
 const data = await gh.gqlSubIssues(MY_MUTATION, { ... })
 ```
 

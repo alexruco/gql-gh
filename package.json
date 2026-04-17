@@ -3,11 +3,19 @@
   "version": "0.1.0",
   "description": "Thin GitHub GraphQL layer — issues, sub-issues, projects, fields",
   "type": "module",
-  "main": "src/index.js",
+  "main": "index.js",
   "exports": {
-    ".": "./src/index.js"
+    ".": "./index.js"
   },
-  "bin": {},
+  "files": [
+    "index.js",
+    "client.js",
+    "issues.js",
+    "subissues.js",
+    "projects.js",
+    "utils.js",
+    "gql/"
+  ],
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/.bin/jest"
   },
