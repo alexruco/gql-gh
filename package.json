@@ -1,6 +1,6 @@
 {
-  "name": "gql-gh",
-  "version": "0.1.0",
+  "name": "@ruco-ai/gql-gh",
+  "version": "0.1.2",
   "description": "Thin GitHub GraphQL layer — issues, sub-issues, projects, fields",
   "type": "module",
   "main": "index.js",
@@ -16,10 +16,14 @@
     "utils.js",
     "gql/"
   ],
-  "scripts": {
-    "test": "node --experimental-vm-modules node_modules/.bin/jest"
-  },
-  "keywords": ["github", "graphql", "issues", "sub-issues", "projects"],
+  "scripts": {},
+  "keywords": [
+    "github",
+    "graphql",
+    "issues",
+    "sub-issues",
+    "projects"
+  ],
   "license": "MIT",
   "engines": {
     "node": ">=18"
